@@ -20,7 +20,7 @@
 | [6mm tactile push buttons](https://Alreadyhaveit.com) | The 2 buttons on the board (2 used rest spare) | 1 | $0.01 | $0.01 | [ALREADY HAVE IT](https://Alreadyhaveit.com) |
 | [MPU6050 module](https://www.aliexpress.com/item/1005009551598131.html) | Motion sensor that detects tilting and shaking. | 1 | $3.32 | $3.32 | [Aliexpress](https://www.aliexpress.com/item/1005009551598131.html) |
 | **Parts subtotal** | — | — | — | **$23.70** | — |
-| **Tax & shipping** | — | — | — | **$9.89** | — |
-| **Total** | — | — | — | **$33.59** | — |
+| **Tax & shipping** | — | — | — | **$7.89** | — |
+| **Total** | — | — | — | **$31.59** | — |
 
-**$3.59 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$1.59 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
