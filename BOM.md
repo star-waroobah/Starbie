@@ -19,7 +19,7 @@
 | [Custom PCB (starbie)](https://www.jlcpcb.com/) | The circuit board itself made from Gerber files | 1 | $10.00 | $10.00 | [JLCPCB](https://www.jlcpcb.com/) |
 | [MPU6050 module](https://www.aliexpress.com/item/1005009551598131.html) | Motion sensor that detects tilting and shaking. | 1 | $3.32 | $3.32 | [Aliexpress](https://www.aliexpress.com/item/1005009551598131.html) |
 | **Parts subtotal** | — | — | — | **$23.69** | — |
-| **Tax & shipping** | — | — | — | **$8.89** | — |
-| **Total** | — | — | — | **$32.58** | — |
+| **Tax & shipping** | — | — | — | **$5.91** | — |
+| **Total** | — | — | — | **$29.60** | — |
 
-**$2.58 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$0.40 left of the tier's funding.
