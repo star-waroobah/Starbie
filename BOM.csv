@@ -1,11 +1,9 @@
-Item, amount, cost (ea.), Link
-XIAO ESP32 C3, 1, 5.00, https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
-0.96 OLED, 1, 2.50, https://www.amazon.com/dp/B0GBVWBWCR
-MPU6050, 1, 2.29, https://www.amazon.com/dp/B0943SGP34
-DHT11, 1, 3.33, https://www.amazon.com/dp/B0BLG7R99R
-MX Switches, 4, 0.18, https://www.amazon.com//dp/B0FQP8VYX4
-Keycaps, 4, 0.60, https://www.amazon.com/dp/B0CQ2VLMVY
-10k Resistor, 1, 0.05, https://www.amazon.com/dp/B0B4JFPHTW
-PCB,1,10.00,https://www.jlcpcb.com/
-,,,
-Total (each kit), 1, 24.95,
+Item,Qty,Supplier,Cost/item,Total Cost,link
+XIAO ESP32 C3,1,Seeed studio,$4.90,$4.90,https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
+0.96 inch OLED display (12C),1,Aliexpress,$2.86,$2.86,https://www.aliexpress.com/item/1005007476502965.html
+DHT11,1,Aliexpress,$2.21,$2.21,https://www.aliexpress.com/item/1005008818897051.html
+10k resistor (pack of 10),1,Daraz,$0.42,$0.42,https://www.daraz.pk//products/i465392816-s2198965661.html?spm=a2o42.cart.0.0.22717d68aTIudk&urlFlag=true
+Custom PCB (starbie),1,JLCPCB,$10.00,$10.00,https://www.jlcpcb.com/
+MPU6050 module,1,Aliexpress,$3.33,$3.33,https://www.aliexpress.com/item/1005009551598131.html
+Tactile push buttons 6x6x4.3 mm,1,Aliexpress,$1.53,$1.53,https://www.aliexpress.com/item/32815969627.html
+Estimated total shipping,1,,,$1.99,
