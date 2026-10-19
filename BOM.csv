@@ -1,7 +1,7 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 XIAO ESP32 C3,1,Seeed studio,$4.90,$4.90,https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
 0.96 inch OLED display (12C),1,Daraz,$3.76,$3.76,https://tinyurl.com/9mjyudrn
-DHT11,1,Aliexpress,$2.21,$2.21,https://www.aliexpress.com/item/1005008818897051.html
+DHT11,1,Daraz,$2.90,$2.90,https://tinyurl.com/9fm7tvjk
 10k resistor (pack of 10),1,Daraz,$0.42,$0.42,https://www.daraz.pk//products/i465392816-s2198965661.html?spm=a2o42.cart.0.0.22717d68aTIudk&urlFlag=true
 Custom PCB (starbie),1,JLCPCB,$10.00,$10.00,https://www.jlcpcb.com/
 MPU6050 module,1,Daraz,$1.80,$1.80,https://www.daraz.pk//products/i222762368-s1439311407.html?spm=a2o42.cart.0.0.41297d68awusLu&urlFlag=true
