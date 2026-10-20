@@ -2001,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 139.7) (xy 187.96 140.97)
+			(xy 190.5 95.25) (xy 190.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 146.05) (xy 222.25 146.05)
+			(xy 201.93 101.6) (xy 224.79 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 140.97) (xy 222.25 140.97)
+			(xy 190.5 96.52) (xy 224.79 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2151,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 143.51) (xy 222.25 143.51)
+			(xy 196.85 99.06) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 148.59) (xy 222.25 148.59)
+			(xy 212.09 104.14) (xy 224.79 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2340,7 +2340,7 @@
 		(uuid "853cf26f-9e00-4a29-8928-657abb752eb2")
 	)
 	(label "SCL"
-		(at 199.39 146.05 0)
+		(at 201.93 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2350,7 +2350,7 @@
 		(uuid "8f05f5b2-e5b2-42bc-98d3-4dce2ce91f9d")
 	)
 	(label "SDA"
-		(at 209.55 148.59 0)
+		(at 212.09 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2878,7 +2878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 63.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2960,7 +2960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 103.632 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -3010,7 +3010,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 227.33 143.51 0)
+		(at 229.87 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3021,7 +3021,7 @@
 		(fields_autoplaced yes)
 		(uuid "72384f9e-6a93-467b-b073-2feeba3c81e5")
 		(property "Reference" "J1"
-			(at 229.87 143.5099 0)
+			(at 232.41 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3032,7 +3032,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 229.87 146.0499 0)
+			(at 232.41 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3042,8 +3042,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 227.33 143.51 0)
+		(property "Footprint" "Imported Parts:Display_128x64_096_I2C"
+			(at 229.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3054,7 +3054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 143.51 0)
+			(at 229.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3065,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 227.33 143.51 0)
+			(at 229.87 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,7 +3296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:MCU_Seeed_ESP32C3"
+		(property "Footprint" "Imported Parts:XIAO-ESP32-C3-SMD"
 			(at 109.982 115.824 0)
 			(hide yes)
 			(show_name no)
@@ -3406,7 +3406,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 139.7 0)
+		(at 190.5 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3417,7 +3417,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a090a33-20dc-4ed7-8ab6-f10a53a7100b")
 		(property "Reference" "#PWR06"
-			(at 187.96 146.05 0)
+			(at 190.5 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3428,7 +3428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 144.78 0)
+			(at 190.5 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3438,7 +3438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 139.7 0)
+			(at 190.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3449,7 +3449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 139.7 0)
+			(at 190.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3460,7 +3460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 139.7 0)
+			(at 190.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3514,7 +3514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 63.5 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3642,7 +3642,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 194.31 143.51 0)
+		(at 196.85 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3652,7 +3652,7 @@
 		(dnp no)
 		(uuid "d14a5194-c38a-4bd5-bf3a-cbe7f67ea3a7")
 		(property "Reference" "#PWR07"
-			(at 194.31 147.32 0)
+			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3663,7 +3663,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 198.628 133.35 0)
+			(at 201.168 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,7 +3674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 143.51 0)
+			(at 196.85 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3685,7 +3685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 143.51 0)
+			(at 196.85 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,7 +3696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 194.31 143.51 0)
+			(at 196.85 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
