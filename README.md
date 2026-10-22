@@ -1,9 +1,37 @@
-<img width="1496" height="888" alt="Screenshot 2026-10-11 161609" src="https://github.com/user-attachments/assets/63265ec3-8c00-431c-b78c-1ba0d2497efa" />
-<img width="1920" height="1080" alt="Screenshot (99)" src="https://github.com/user-attachments/assets/2a3186ba-268d-46b8-a21f-9d19f54b8c24" />
-<img width="1920" height="1080" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/255e4ea9-d605-49c0-87db-2a37522a037a" />
-<img width="1920" height="1080" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/67890821-62ba-47b9-9c92-c1e8f09b7c83" />
-<img width="1920" height="1080" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/7c68433b-037e-4292-b9d3-73bd52b054ac" />
-<img width="1920" height="1080" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/87da2508-bc12-43ee-8ad7-82deecf05b07" />
-<img width="1920" height="1080" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/c0674edb-804e-4f8d-ad93-3e25e22d6894" />
 # Starbie
-My starbie PCB for half life. 
+
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https://github.com/star-waroobah/Starbie/tree/main/PCB)
+A small star-shaped PCB desk pet built around a XIAO ESP32-C3, with an OLED screen, a motion sensor and a temperature sensor.
+
+![3D view of the board](Assets/3d%20front.png)
+
+## Why I made it
+I made it as the week 1 project of half life hack club and I picked Starbie because it’s a small, fun project that combines a screen, sensors and buttons on one board. It was a great way to learn KiCad as a beginner using the guide :)
+
+## How it works
+The XIAO ESP32-C3 is the brain. It draws the pet on the OLED screen, reads the MPU6050 so the pet reacts when the board is tilted or shaken, reads the DHT11 for temperature and humidity, and reads two buttons for input.
+
+## How the parts fit together
+- **XIAO ESP32-C3 (U1):** the microcontroller. It powers everything from its 3V3 pin and GND.
+- **OLED display (J1, 4-pin header):** pin 1 GND, pin 2 3.3V, pin 3 SCL (D5), pin 4 SDA (D4)
+- **MPU6050 module (J2, 8-pin header):** pin 1 3.3V, pin 2 GND, pin 3 SCL (D5), pin 4 SDA (D4). It shares the I2C lines with the OLED. Pins 5 to 8 are unused.
+- **DHT11 (U2):** data pin to D1. A 10k pull-up resistor (R1) connects the data line to 3.3V.
+- **Button 1 (SW1):** connects D2 to GND
+- **Button 2 (SW2):** connects D3 to GND
+  
+## Schematic
+![Schematic](Assets/Schematic.png)
+
+## PCB layout
+![PCB layout](Assets/pcb%20layou.png)
+
+## 3D model
+![3D front](Assets/3d%20front.png)
+![3D back](Assets/3d%20back.png)
+
+## Repo files
+- `PCB/` KiCad project files
+- `production/` Gerber and drill files
+- `Firmware/` Arduino code
+- `Assets/` images
+- `BOM.csv` parts list
