@@ -19,6 +19,12 @@ The XIAO ESP32-C3 is the brain. It draws the pet on the OLED screen, reads the M
 - **Button 1 (SW1):** connects D2 to GND
 - **Button 2 (SW2):** connects D3 to GND
   
+##Firmware Credits
+The firmware used in this project is based on the original Starbie firmware provided by SharKingStudios in the Hack Club Half-Life guide.
+Original firmware: https://github.com/SharKingStudios/Starbie/tree/main/Firmware
+The original firmware is licensed under the MIT License, Copyright (c) 2026 Logan Peterson. The license text is included in this repository.
+I followed the official guide for the firmware rather than generating it with AI.
+  
 ## Schematic
 ![Schematic](Assets/Schematic.png)
 
