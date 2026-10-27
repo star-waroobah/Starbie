@@ -24,6 +24,20 @@ The firmware used in this project is based on the original Starbie firmware prov
 Original firmware: https://github.com/SharKingStudios/Starbie/tree/main/Firmware
 The original firmware is licensed under the MIT License, Copyright (c) 2026 Logan Peterson. The license text is included in this repository.
 I followed the official guide for the firmware rather than generating it with AI.
+
+## Bill of Materials (BOM)
+
+| Part | What it does | Qty | Unit price | Total | Vendor | Link |
+|------|--------------|-----|-----------|-------|--------|------|
+| XIAO ESP32-C3 | The main chip | 1 | $4.90 | $4.90 | Seeed Studio | [Buy](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) |
+| 0.96 inch OLED display (I2C) | Screen that shows the pet | 1 | $3.76 | $3.76 | Daraz | [Buy](https://tinyurl.com/9mjyudrn) |
+| DHT11 | Temperature and humidity sensor | 1 | $2.90 | $2.90 | Daraz | [Buy](https://tinyurl.com/9fm7tvjk) |
+| 10k resistor (pack of 10) | Pull-up resistor on the DHT11 data line | 1 | $0.42 | $0.42 | Daraz | [Buy](https://www.daraz.pk//products/i465392816-s2198965661.html?spm=a2o42.cart.0.0.22717d68aTIudk&urlFlag=true) |
+| Custom PCB (Starbie) | The circuit board, made from my Gerber files | 1 | $6.44 | $6.44 | PCBX | [Buy](https://www.pcbx.com/order/manufacturing/pcb) |
+| MPU6050 module | Motion sensor that detects tilting and shaking | 1 | $1.81 | $1.81 | Daraz | [Buy](https://tinyurl.com/fe83xnmz) |
+| Tactile push buttons 6x6x5mm | The 2 buttons on the board | 1 | $1.08 | $1.08 | Daraz | [Buy](https://tinyurl.com/4ehe2pe8) |
+| Tax & shipping | For the whole order | - | - | $7.40 | - | - |
+| **Total** | | | | **$28.71** | | |
   
 ## Schematic
 ![Schematic](Assets/Schematic.png)
